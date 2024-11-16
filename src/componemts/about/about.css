@@ -1,0 +1,89 @@
+.about {
+  width: 100%;
+  background-color: aliceblue;
+  margin-top: 70px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.aboutContainer {
+  width: auto;
+  display: flex;
+  padding-top: 30px;
+  /* background-color: rgb(163, 215, 246); */
+  width: 90%;
+  margin: auto;
+}
+.aboutLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(246, 224, 163); */
+}
+.aboutRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(203, 15, 220); */
+}
+.aboutRight img {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.aboutLeft h1 {
+  padding: 10px;
+  font-size: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.aboutLeft h2 {
+  padding: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.aboutLeft p {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.aboutLinks ul .aboutLink {
+  display: inline;
+  /* padding: 20px; */
+
+  /* flex-direction: column; */
+}
+.aboutLink {
+  display: flex;
+  flex-direction: column;
+  color: chocolate;
+  font-size: 19px;
+  padding: 5px;
+}
+.aboutLink:hover {
+  color: rgb(123, 13, 233);
+}
+@media (max-width: 700px) {
+  .aboutContainer {
+    display: block;
+  }
+  .aboutLinks ul .aboutLink {
+    display: flex;
+  }
+}
+
+.statisties {
+  display: flex;
+}
+.status {
+  padding: 0 20px;
+  font-size: 18px;
+  /* line-height: 30px; */
+}
+.stat {
+  padding: 0 20px;
+}

@@ -1,0 +1,64 @@
+.subscription {
+  margin-top: 50px;
+  background-color: rgb(233, 238, 240);
+}
+.subscriptionContainer {
+  display: flex;
+}
+.subscriptionLeft {
+  flex: 1;
+  margin: auto;
+}
+.imageBoxSub {
+  width: 100%;
+}
+.subscriptionRight {
+  flex: 1;
+  background-color: rgb(233, 238, 240);
+  padding: 30px;
+}
+form {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.subscriptionInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.subscriptionInput::placeholder {
+  font-size: 17px;
+}
+.subscriptionTextarea {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 10px 10px;
+  resize: none;
+}
+.subBtn {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .subscriptionContainer {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .statisties {
+    display: flex;
+    width: 300px;
+
+  }
+} */

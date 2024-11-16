@@ -1,0 +1,89 @@
+.footer {
+  background-color: blueviolet;
+  height: auto;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+.footerLogoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: aliceblue;
+}
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  gap: 160px;
+  margin: auto;
+}
+.footer-logo-img {
+  width: 60px;
+  border-radius: 50%;
+}
+.footerLogo {
+  width: 140px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.footerLogo:hover {
+  color: goldenrod;
+}
+.footerCopyRight {
+  width: 100%;
+  padding-top: 25px;
+  text-align: center;
+  color: aliceblue;
+}
+.footerLinks {
+  margin-top: 20px;
+  padding: 20px;
+}
+.footerLink {
+  list-style: none;
+  padding: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  color: whitesmoke;
+  /* background-color: blue; */
+}
+.footerLinks h3 {
+  color: whitesmoke;
+  padding: 7px 0;
+}
+.footerLink:hover {
+  color: goldenrod;
+}
+
+@media (max-width: 1000px) {
+  .footerContent {
+    display: block;
+  }
+  .footerLinks {
+    /* background-color: aqua; */
+    margin-top: 20px;
+    /* width: 400px; */
+    padding: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .footerCopyRight {
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: blue; */
+    margin: auto;
+    padding: 20px;
+  }
+}

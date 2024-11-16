@@ -1,0 +1,59 @@
+.main {
+  width: 100%;
+  display: flex;
+  background-color: antiquewhite;
+  height: auto;
+  padding: 20px 0;
+}
+.mainPage {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  height: auto;
+}
+.mainCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  padding: 20px 0;
+  gap: 15px;
+}
+.mainItemCard {
+  border: 2px solid rgb(230, 157, 157);
+  border-radius: 10px;
+}
+.mainPage h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.mainImage {
+  max-width: 100%;
+  transition: 0.05s ease-in-out;
+  border-radius: 10px;
+}
+.mainImage:hover {
+  transform: scale(1.02);
+  box-shadow: 0 7px 10px rgb(82, 80, 80);
+}
+.mainItemInfo {
+  padding: 10px 10px;
+}
+.mainItemInfo h3,
+h5 {
+  padding: 5px 10px;
+}
+
+.mainItemBtn {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: none;
+  margin: 10px 0;
+  transition: 0.05s ease-in-out;
+}
+
+.mainItemBtn:hover {
+  background-color: goldenrod;
+  color: aliceblue;
+}

@@ -1,0 +1,7 @@
+.mainItemBoxBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.greenBtn {
+  background-color: rgb(13, 25, 240);
+}
