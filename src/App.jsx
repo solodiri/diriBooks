@@ -12,14 +12,12 @@ import MobileMenu from "./componemts/mobileMenu/MobileMenu";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BookPage from "./pages/books/BookPage";
+import NotFound from "./pages/notfound/NotFound";
 
 function App() {
-  // const [changeMenuSign, setChangeMenuSign] = useState(true);
-
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const MenuSignToggle = () => {
     setShowMobileMenu(!showMobileMenu);
-    // setChangeMenuSign(!changeMenuSign);
   };
   return (
     <>
@@ -37,6 +35,7 @@ function App() {
           <Route path="/bookPage" element={<BookPage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/detailPage/:id" element={<DetailPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         {showMobileMenu && (
           <MobileMenu

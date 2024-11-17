@@ -2,9 +2,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-/* jhklsljgkhljlglglgklslgk */
-
 .card {
   width: 100%;
   display: flex;
@@ -74,4 +71,53 @@ h5 {
 .cardItemBtn:hover {
   background-color: goldenrod;
   color: aliceblue;
+}
+/* kh;lkh;d;hkdk;hdk;h;dh */
+.searchBoxContainer {
+  position: absolute;
+  top: 70px;
+  left: 6px;
+  background-color: aliceblue;
+  padding: 3px;
+  border-radius: 4px;
+  max-width: 306px;
+  overflow: hidden;
+}
+.hove h3 {
+  color: rgb(81, 76, 76);
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.hove:hover h3 {
+  color: rgb(251, 251, 253);
+  background-color: blueviolet;
+}
+.nav-searchBox {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(230, 235, 234);
+  padding: 3px;
+  border-radius: 7px;
+  min-width: 150px;
+}
+
+.nav-searchBox input {
+  width: 90%;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+}
+.nav-searchBox p {
+  background-color: rgb(128, 128, 220);
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.nav-searchBox p:hover {
+  background-color: goldenrod;
 }

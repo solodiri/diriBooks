@@ -19,12 +19,11 @@ const Testimonial = () => {
                 Moltin
               </h3>
               <p className="testimonialStatus">
-                "Social media such as Facebook, Twitter, Instagram, Messenger,
-                Telegram, WhatsApp among others serve as economy front for
-                individuals. These platforms have served as markets place of
-                idea and creativity. Products and services are bought and sold
-                on these platforms, thus providing opportunities for start-ups
-                to commence business on a small scale?.
+                "My studies with Dr. Diri allowed me to improve my analytical
+                and report writing skills. I also had the opportunity to learn
+                about modeling, data analysis, and statistics using different
+                software. And of course, I also learned a lot about project
+                management."
               </p>
               <p>
                 <strong style={{ color: "blueviolet" }}> From: </strong>Belgian
@@ -61,12 +60,10 @@ const Testimonial = () => {
                 Greelandar
               </h3>
               <p className="testimonialStatus">
-                "Social media such as Facebook, Twitter, Instagram, Messenger,
-                Telegram, WhatsApp among others serve as economy front for
-                individuals. These platforms have served as markets place of
-                idea and creativity. Products and services are bought and sold
-                on these platforms, thus providing opportunities for start-ups
-                to commence business on a small scale".
+                "I learn by working in a group with people from different
+                countries. The lab classes and hands-on experience are very
+                rewarding. We not only learn in the classroom, but we also learn
+                in the field and in practice to better understand."
               </p>
               <p>
                 <strong style={{ color: "blueviolet" }}> From: </strong>USA
@@ -79,12 +76,11 @@ const Testimonial = () => {
                 White
               </h3>
               <p className="testimonialStatus">
-                "Social media such as Facebook, Twitter, Instagram, Messenger,
-                Telegram, WhatsApp among others serve as economy front for
-                individuals. These platforms have served as markets place of
-                idea and creativity. Products and services are bought and sold
-                on these platforms, thus providing opportunities for start-ups
-                to commence business on a small scale".
+                "Studying across the country is an opportunity I would recommend
+                to anyone! It is a very rich experience. I joined a quality
+                training, in a cross-cultural class. I have always felt very
+                supported. The Dr. Diri's teams have always been there to
+                support me.".
               </p>
               <p>
                 <strong style={{ color: "blueviolet" }}> From: </strong>Uk

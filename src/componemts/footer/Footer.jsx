@@ -63,27 +63,42 @@ const Footer = () => {
           <div className="footerLinks">
             <h4> SOCIAL LINKS</h4>
             <ul>
-              <Link to="https://www.facebook.com/chris.diri?mibextid=ZbWKwL">
+              <Link
+                target="_blank"
+                to="https://www.facebook.com/chris.diri?mibextid=ZbWKwL"
+              >
                 <li className="footerLink">FaceBook</li>
               </Link>
-              <Link to="https://scholar.google.com/citations?user=4xZKjC4AAAAJ&hl=en&oi=ao#d=gsc_md_fol&t=1731604537028">
+              <Link
+                target="_blank"
+                to="https://scholar.google.com/citations?user=4xZKjC4AAAAJ&hl=en&oi=ao#d=gsc_md_fol&t=1731604537028"
+              >
                 <li className="footerLink">Googlescholar</li>
               </Link>
-              <Link to="https://gumroad.com">
+              <Link target="_blank" to="https://gumroad.com">
                 <li className="footerLink">Gumroad</li>
               </Link>
-              <Link to="https://www.researchgate.net/profile/Christian-Diri/research">
+              <Link
+                target="_blank"
+                to="https://www.researchgate.net/profile/Christian-Diri/research"
+              >
                 <li className="footerLink">Researchgate</li>
               </Link>
 
-              <Link to="https://www.linkedin.com/in/dr-christian-tuotamuno-diri-ba6353134?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/in/dr-christian-tuotamuno-diri-ba6353134?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >
                 <li className="footerLink">LinkedIn</li>
               </Link>
 
-              <Link to="https://api.whatsapp.com/send/?phone=%2B2348035511278&text&type=phone_number&app_absent=0">
+              <Link
+                target="_blank"
+                to="https://api.whatsapp.com/send/?phone=%2B2348035511278&text&type=phone_number&app_absent=0"
+              >
                 <li className="footerLink">WhatsApp</li>
               </Link>
-              <Link to="Https://t.me/Dr.Chris ">
+              <Link target="_blank" to="Https://t.me/Dr.Chris ">
                 <li className="footerLink">Telegram</li>
               </Link>
             </ul>

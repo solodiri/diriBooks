@@ -52,7 +52,7 @@ const Subscription = () => {
     // setName("");
     // setEmail("");
     // setComment("");
-    console.log(result);
+    // console.log(result);
   };
   return (
     <div className=" subscription">
@@ -94,6 +94,7 @@ const Subscription = () => {
               type="text"
               className="subscriptionInput"
               placeholder="Enter your Name"
+              required
               // value={name}
               name="name"
               // onChange={(e) => {
@@ -104,6 +105,7 @@ const Subscription = () => {
               type="email"
               className="subscriptionInput"
               placeholder="Enter your Email"
+              required
               // value={email}
               name="email"
               // onChange={(e) => {
@@ -114,6 +116,7 @@ const Subscription = () => {
               type="text"
               className="subscriptionInput"
               placeholder="Enter your Subject"
+              required
               // value={subject}
               name="subject"
               // onChange={(e) => {
@@ -123,6 +126,7 @@ const Subscription = () => {
             <textarea
               className="subscriptionTextarea"
               placeholder="Enter your Comment"
+              required
               // value={comment}
               name="comment"
               // onChange={(e) => {

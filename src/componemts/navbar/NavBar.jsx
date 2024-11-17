@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import Hamburger from "../hamburger/Hamburger";
@@ -12,10 +12,6 @@ const NavBar = ({ MenuSignToggle }) => {
           <h3>DrDiriBooks</h3>
         </div>
       </Link>
-      <div className="nav-searchBox">
-        <input type="text" placeholder="Search Here" />
-        <p>🔍</p>
-      </div>
 
       <div>
         <ul>

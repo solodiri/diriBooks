@@ -1,8 +1,19 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../public/contact.jpg);
+
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  height: 50%;
+}
 .heroContainer {
   width: auto;
   display: flex;
   padding-top: 30px;
   /* background-color: rgb(163, 215, 246); */
+  /* background-image: url(../../../public/contact.jpg); */
   width: 90%;
   margin: auto;
   margin-top: 70px;
@@ -35,11 +46,13 @@
   font-size: 40px;
   padding-bottom: 20px;
   text-align: center;
+  color: aliceblue;
 }
 .heroLeft h2 {
   padding: 10px;
   padding-bottom: 20px;
   text-align: center;
+  color: aliceblue;
 }
 .webTime {
   position: fixed;

@@ -30,7 +30,8 @@
 }
 .testimonialStatus {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 17px;
+  color: rgb(94, 87, 87);
   text-align: justify;
 }
 

@@ -62,31 +62,46 @@ const AboutUs = () => {
           <div className="aboutLinks">
             <h4> SOCIAL LINKS</h4>
             <ul>
-              <Link to="https://www.facebook.com/chris.diri?mibextid=ZbWKwL">
+              <Link
+                target="_blank"
+                to="https://www.facebook.com/chris.diri?mibextid=ZbWKwL"
+              >
                 <li className="aboutLink">FaceBook</li>
               </Link>
-              <Link to="https://scholar.google.com/citations?user=4xZKjC4AAAAJ&hl=en&oi=ao#d=gsc_md_fol&t=1731604537028">
+              <Link
+                target="_blank"
+                to="https://scholar.google.com/citations?user=4xZKjC4AAAAJ&hl=en&oi=ao#d=gsc_md_fol&t=1731604537028"
+              >
                 <li className="aboutLink">Googlescholar</li>
               </Link>
-              <Link to="https://gumroad.com">
+              <Link target="_blank" to="https://gumroad.com">
                 <li className="aboutLink">Gumroad</li>
               </Link>
-              <Link to="https://www.researchgate.net/profile/Christian-Diri/research">
+              <Link
+                target="_blank"
+                to="https://www.researchgate.net/profile/Christian-Diri/research"
+              >
                 <li className="aboutLink">Researchgate</li>
               </Link>
               {/* <Link to="https://instagram.com">
                 <li className="aboutLink">Instagram</li>
               </Link> */}
 
-              <Link to="https://www.linkedin.com/in/dr-christian-tuotamuno-diri-ba6353134?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/in/dr-christian-tuotamuno-diri-ba6353134?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >
                 <li className="aboutLink">LinkedIn</li>
               </Link>
 
-              <Link to="https://api.whatsapp.com/send/?phone=%2B2348035511278&text&type=phone_number&app_absent=0">
+              <Link
+                target="_blank"
+                to="https://api.whatsapp.com/send/?phone=%2B2348035511278&text&type=phone_number&app_absent=0"
+              >
                 {/* <Link to="https://https://wa.me/+2348035511278?text="> */}
                 <li className="aboutLink">WhatsApp</li>
               </Link>
-              <Link to="Https://t.me/Dr.Chris ">
+              <Link target="_blank" to="Https://t.me/Dr.Chris ">
                 <li className="aboutLink">Telegram</li>
               </Link>
             </ul>

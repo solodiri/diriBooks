@@ -40,7 +40,13 @@ const DetailPage = () => {
             <strong style={{ color: "blue" }}> Sub-Title: </strong>
             {bookList.subTitle}
           </h3>
-          <p style={{ fontSize: "20px", lineHeight: "26px" }}>
+          <p
+            style={{
+              fontSize: "16px",
+              lineHeight: "26px",
+              color: "rgb(94, 87, 87)",
+            }}
+          >
             <strong style={{ color: "blue" }}> Description: </strong>
             {bookList.description}
           </p>
