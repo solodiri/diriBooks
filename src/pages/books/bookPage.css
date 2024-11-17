@@ -1,0 +1,29 @@
+.book {
+  width: 100%;
+  background-color: aliceblue;
+  margin-top: 70px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.bookTitle {
+  padding-top: 30px;
+  text-align: center;
+  /* font-size: 20px; */
+}
+.bookContainer {
+  width: auto;
+  display: flex;
+  padding-top: 30px;
+  /* background-color: rgb(163, 215, 246); */
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .aboutContainer {
+    display: block;
+  }
+  .aboutLinks ul .aboutLink {
+    display: flex;
+  }
+}

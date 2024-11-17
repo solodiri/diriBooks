@@ -4,16 +4,17 @@ import { bestBookData } from "../../../src/data";
 import { Link } from "react-router-dom";
 
 const BookCard = () => {
+  // console.log(bestBookData.length);
   return (
-    <div className="mainCardContainer">
+    <div className="cardCardContainer">
       {bestBookData.map((book) => {
         const { id, image, author, title, subTitle, description, url } = book;
         return (
-          <div key={id} className="mainItemCard">
+          <div key={id} className="cardItemCard">
             <Link to={`/detailPage/${id}`}>
-              <img className="mainImage" src={image} alt="image" />
+              <img className="cardImage" src={image} alt="image" />
             </Link>
-            <div className="mainItemInfo">
+            <div className="cardItemInfo">
               <h3>
                 <strong style={{ color: "blueviolet" }}> Author: </strong>
                 {author}
@@ -22,15 +23,14 @@ const BookCard = () => {
                 <strong style={{ color: "blueviolet" }}> Title: </strong>{" "}
                 {title}{" "}
               </h4>
-              {/* <h3>Sub-Title:{subTitle} </h3> */}
-              {/* <p> Description:{description} </p> */}
-              <div className="mainItemBoxBtn">
+
+              <div className="cardItemBoxBtn">
                 {/* <Link to={`/detailPage/${id}`}> */}
                 <Link to={url}>
-                  <button className="mainItemBtn ">Buy Now</button>
+                  <button className="cardItemBtn ">Buy Now</button>
                 </Link>
                 <Link to={`/detailPage/${id}`}>
-                  <button className="mainItemBtn greenBtn">Read More</button>
+                  <button className="cardItemBtn greenBtn">Read More</button>
                 </Link>
               </div>
             </div>

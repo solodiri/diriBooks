@@ -8,6 +8,7 @@ const Subscription = () => {
   // const [subject, setSubject] = useState("");
   // const [comment, setComment] = useState("");
   // const [message, setMessage] = useState([]);
+  const [alert, setAlert] = useState(false);
 
   // const myError = "The connection is not extablished";
   const myError = "Something went wrong somewher";
@@ -28,7 +29,10 @@ const Subscription = () => {
       .then(
         (result) => {
           console.log("SUCCESS", result.text);
-          console.log("Message Sent Successfuly");
+          setAlert(true);
+          setTimeout(() => {
+            setAlert(false);
+          }, 3000);
         },
         (error) => {
           console.log("FAILD...", error.text, myError);
@@ -60,6 +64,21 @@ const Subscription = () => {
         </div>
         <div className="subscriptionRight">
           <h1>Subscribe and don't miss any updates! </h1>
+
+          {alert === true && (
+            <p
+              className="warming"
+              style={{
+                backgroundColor: "orange",
+                color: "white",
+                padding: "10px",
+                fontSize: "17px",
+              }}
+            >
+              You Subscribe Successfuly
+            </p>
+          )}
+
           {/* {message?.map((item, index) => {
             return (
               <div key={index}>
@@ -110,7 +129,7 @@ const Subscription = () => {
               //   setComment(e.target.value);
               // }}
             />
-            <button type="submit" className="mainItemBtn subBtn">
+            <button type="submit" className="cardItemBtn subBtn">
               Subscribe
             </button>
           </form>

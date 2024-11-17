@@ -1,13 +1,13 @@
 import React from "react";
 import "./home.css";
 import Hero from "../../componemts/hero/Hero";
-import MainPage from "../../componemts/main/MainPage";
+import Shop from "../../componemts/shop/Shop";
 
 const Home = () => {
   return (
     <div className=" home">
       <Hero />
-      <MainPage />
+      <Shop />
     </div>
   );
 };

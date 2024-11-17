@@ -25,7 +25,7 @@ const NavBar = ({ MenuSignToggle }) => {
           <Link to="/about">
             <li>About</li>
           </Link>
-          <Link to="/">
+          <Link to="/bookPage">
             <li>Books</li>
           </Link>
           <Link to="/services">
@@ -38,17 +38,6 @@ const NavBar = ({ MenuSignToggle }) => {
       </div>
 
       <Hamburger MenuSignToggle={MenuSignToggle} />
-
-      {/* <div
-        className="bars"
-        onClick={() => {
-          MenuSignToggle();
-        }}
-      >
-        <div className="bar1"></div>
-        <div className="bar2"></div>
-        <div className="bar3"></div>
-      </div> */}
     </nav>
   );
 };

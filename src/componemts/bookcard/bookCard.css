@@ -1,7 +1,77 @@
-.mainItemBoxBtn {
+.cardItemBoxBtn {
   display: flex;
   justify-content: space-between;
 }
+
+/* jhklsljgkhljlglglgklslgk */
+
+.card {
+  width: 100%;
+  display: flex;
+  background-color: rgb(234, 9, 9);
+
+  height: auto;
+  padding: 20px 0;
+}
+.cardPage {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  height: auto;
+}
+.cardCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  padding: 20px 0;
+  gap: 15px;
+}
+.cardItemCard {
+  border: 2px solid rgb(230, 157, 157);
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.cardPage h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.cardImage {
+  max-width: 100%;
+  transition: 0.05s ease-in-out;
+  border-radius: 10px;
+}
+.cardImage:hover {
+  transform: scale(1.02);
+  box-shadow: 0 7px 10px rgb(82, 80, 80);
+}
+.cardItemInfo {
+  padding: 10px 10px;
+}
+.cardItemInfo h3,
+h5 {
+  padding: 5px 10px;
+}
+
+.cardItemBtn {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: none;
+  margin: 10px 0;
+  transition: 0.05s ease-in-out;
+}
 .greenBtn {
-  background-color: rgb(13, 25, 240);
+  background-color: rgb(7, 9, 65);
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: none;
+  margin: 10px 0;
+  transition: 0.05s ease-in-out;
+}
+
+.cardItemBtn:hover {
+  background-color: goldenrod;
+  color: aliceblue;
 }

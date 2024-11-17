@@ -5,10 +5,12 @@ import { useParams } from "react-router-dom";
 import { bestBookData } from "../../../src/data";
 
 const DetailPage = () => {
-  const { id } = useParams();
   const [bookList, setBookList] = useState("Good");
+  const { id } = useParams();
   useEffect(() => {
-    const newBook = bestBookData.find((book) => book.id === parseInt(id));
+    const newBook = bestBookData.find(
+      (book) => book.id === Number(id.toString())
+    );
     setBookList(newBook);
   }, []);
 
@@ -21,7 +23,6 @@ const DetailPage = () => {
             {bookList.title}
           </h2>
           <h3>
-            {" "}
             <strong style={{ color: "blue" }}> Author: </strong>
             {bookList.author}
           </h3>
@@ -39,18 +40,18 @@ const DetailPage = () => {
             <strong style={{ color: "blue" }}> Sub-Title: </strong>
             {bookList.subTitle}
           </h3>
-          {/* style={{ fontSize: "17px" }} */}
           <p style={{ fontSize: "20px", lineHeight: "26px" }}>
             <strong style={{ color: "blue" }}> Description: </strong>
             {bookList.description}
           </p>
         </div>
       </div>
-      <div strong style={{ textAlign: "center" }} className="detailBtn">
+
+      <div className="detailBtn">
         <Link to="/">
-          <button className="mainItemBtn homeDetailBtn">Back Home</button>
+          <button className="cardItemBtn cardDetailBtn">Back Home</button>
         </Link>
-        <button className="mainItemBtn ">Buy Now</button>
+        <button className="cardItemBtn greenBtn ">Buy Now</button>
       </div>
     </div>
   );

@@ -12,12 +12,6 @@ const MobileMenu = ({ showMobileMenu, setShowMobileMenu }) => {
     >
       <div className="mobileMenuContent">
         <ul className="mobileLinks">
-          {/* <li className="mobileLink">Home</li>
-          <li className="mobileLink">About</li>
-          <li className="mobileLink">Books</li>
-          <li className="mobileLink">Services</li>
-          <li className="mobileLink">Contact</li> */}
-
           <Link to="/">
             <li
               className="mobileLink"

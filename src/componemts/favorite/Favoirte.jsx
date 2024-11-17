@@ -10,11 +10,10 @@ const Favoirte = () => {
           <div>
             <img className="imageBox" src="/study.jpg" alt="image" />
           </div>
-          {/* <img src="/study.jpg" alt="" /> */}
         </div>
         <div className="favoriteLeft">
           <h1>Find your Favorite Books here</h1>
-          <p v className="status">
+          <p className="status">
             Social media such as Facebook, Twitter, Instagram, Messenger,
             Telegram, WhatsApp among others serve as economy front for
             individuals. These platforms have served as markets place of idea
@@ -37,7 +36,7 @@ const Favoirte = () => {
             </div>
           </div>
           <Link to="https://scholar.google.com/citations?user=4xZKjC4AAAAJ&hl=en&oi=ao">
-            <button className="mainItemBtn">Explore Now</button>
+            <button className="cardItemBtn">Explore Now</button>
           </Link>
         </div>
       </div>
